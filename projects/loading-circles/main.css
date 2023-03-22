@@ -1,0 +1,38 @@
+body{
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+@keyframes jump {
+  100%{
+    opacity: 50%;
+    transform: translateY(-100px);
+  }
+}
+
+div{
+  background-color: #9c27b0;
+  --width : 100px ;
+  width:  var(--width) ;
+  height: var(--width) ;
+  border-radius: 50%;
+  margin:  calc( var(--width) * .5  ) ;
+  animation: jump 1s alternate infinite ease-in-out ;
+  box-shadow:  #9c27b078 0 0px 20px 13px ;
+}
+
+
+div:nth-of-type(2) {
+  animation-delay: .33s;
+}
+
+div:nth-of-type(3){
+  animation-delay: .67s;
+}
+
+  
+

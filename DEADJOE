@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Tue Mar 14 21:04:08 2023
+*** JOE was aborted because the terminal closed
+
+*** File '/home/tanka/Documents/front-end/.git/COMMIT_EDITMSG'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 5 and 1 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	modified:   index.html
+#	modified:   main.css
+#
+
+*** File '(Unnamed)'
+/home/tanka/Documents/front-end/git-hub/git/.git/COMMIT_EDITMSG
+/home/tanka/Documents/front-end/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc

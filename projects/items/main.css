@@ -1,0 +1,54 @@
+body{
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  background-color: white;
+  width: 60%;
+  padding: 50px;
+  aspect-ratio: 2/1;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap : 5%;
+  perspective: 1000px;
+}
+.container div{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 70px;
+  transition: 0.7s;
+}
+
+
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+
+
+.container:hover .blue{
+  transform: rotateY(-60deg) translate3d(-200px,0px,-50px) ;
+}
+.container:hover .red{
+  transform: rotateY(60deg) translate3d(200px,0px,-50px) ;
+}
+.container:hover .green{
+  transform: translateZ(-400px) ;
+}
+
+.container:hover{
+  cursor: pointer;
+}
